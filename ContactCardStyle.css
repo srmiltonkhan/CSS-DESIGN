@@ -1,0 +1,53 @@
+
+.contact-card{
+    position: relative;
+    box-sizing: border-box;
+    width: 18rem;
+    border: 1px solid #dee2e6;
+    padding-top: 5px;
+  
+}
+.contact-profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-profile img{
+
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+.person-personal-info h2{
+    text-align: right;
+    padding: 0px 5px;
+    line-height: 1px;
+}
+.person-personal-info h4{
+    text-align: right;
+    border-top: 1px solid #dee2e6;
+    margin-top: -5px;
+    padding: 0px 5px;
+}
+.person-contact-info ul{
+    margin-left: -38px;
+}
+.person-contact-info ul li{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.person-contact-info ul li i{
+    font-size: 25px;
+    line-height: 1px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px 5px 5px 0px; 
+    border-radius: 50%;
+    border: 1px solid #dee2e6;
+}
+.person-contact-info ul li label{
+    font-size: 20px;
+}
